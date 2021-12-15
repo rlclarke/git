@@ -1,0 +1,337 @@
+/*font families
+font-family: 'Arvo', serif;
+font-family: 'Meow Script', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Taviraj', serif;*/
+
+/*font colors
+color: #046865;
+color: #13C4A3;
+color:#36F1CD;*/
+
+/*header*/
+header {
+  background: #046865;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:70px;
+}
+
+.header-title {
+  display: flex;
+  padding: 20px;
+  
+}
+
+header h1 {
+  color: #FFFFFF;
+  font-family: 'Arvo', serif;
+  font-size: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.with {
+  color: #13C4A3;
+  font-family: 'Meow Script', cursive;
+  border-bottom: 3px solid #13C4A3;
+  padding: 3px 10px;
+  font-size:35px;
+}
+
+/*close header*/
+
+/*section title*/
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.section-title h1 {
+  color: #000000;
+  font-family: 'Arvo', serif;
+  font-size: 35px;
+}
+
+.section-title .cursive {
+  color: #13C4A3;
+  font-family: 'Meow Script', cursive;
+  border-bottom: 3px solid #13C4A3;
+  padding: 3px 10px;
+  font-size:50px;
+}
+/*close section header*/
+
+/*3 photo grid*/
+.img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.individual-posting {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-img-text-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://i.imgur.com/8yNEGiK.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 350px;
+  color: white;
+  justify-content: center;
+}
+
+.featured-img-text-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://i.imgur.com/d6ewLWP.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 350px;
+  color: white;
+  justify-content: center;
+}
+
+.featured-img-text-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://i.imgur.com/YiP32kL.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 350px;
+  color: white;
+  justify-content: center;
+}
+
+.shaded-info {
+  background-color: #046865;
+  height: 60px;
+  width: 375px;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shaded-info p {
+  margin: 10px 10px;
+  color: #FFFFFF;
+  font-family: 'Taviraj', serif;
+  align-items: center;
+  justify-items: center;
+}
+
+/*close 3 photo grid*/
+
+/*display photos begin copy/paste here for book cook*/
+.display-format {
+  position: absolute;
+  top: 905px;
+}
+
+img {
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+  padding: 5px 120px;
+}
+
+.display-square {
+  position: absolute;
+  background-color: #046865;
+  z-index: 5;
+  left: 600px;
+  top:120px;
+  height: 280px;
+  width: 650px;
+}
+
+.display-title {
+  font-family: 'Taviraj', serif;
+  color: #FFFFFF;
+  padding: 10px 20px;
+}
+
+.description {
+  font-family: 'Arvo', serif;
+  color: #FFFFFF;
+  padding: 10px 20px;
+}
+
+/*end copy&paste for disply section here*/
+
+/*items unique to homepage*/
+.display-format-1 {
+  position: absolute;
+  top: 1000px;
+}
+
+.display-pic-1 {
+  position: absolute;
+  top:500px;
+}
+
+.display-square-1 {
+  position: absolute;
+  background-color: #046865;
+  z-index: 5;
+  left: 550px;
+  top:575px;
+  height: 280px;
+  width: 650px;
+}
+
+.section-title-1 {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+  top: 2000px;
+  left: 600px;
+  
+}
+
+.section-title-1 h1 {
+  color: #000000;
+  font-family: 'Arvo', serif;
+  font-size: 35px;
+}
+
+.section-title-1 .cursive {
+  color: #13C4A3;
+  font-family: 'Meow Script', cursive;
+  border-bottom: 3px solid #13C4A3;
+  padding: 3px 10px;
+  font-size:50px;
+}
+
+.meet-me {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+  top: 2150px;
+}
+
+.meet-me-text {
+  font-family: 'Arvo', serif;
+  width: 400px;
+}
+
+.footer-1 {
+  background-color: #046865;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 2750px;
+  width: 100%;
+}
+
+.footsie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-1 h1 {
+  color: #FFFFFF;
+  font-family: 'Arvo', serif;
+  font-size: 40px;
+}
+
+.footer-1 a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+/*recipes page CSS*/
+  .recipes {
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.recipes img{ 
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+  padding: 5px 100px;
+}
+
+.rec-header {
+  font-family: 'Taviraj', serif;
+}
+
+.rec-label{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.rec-specific {
+  font-family: 'Arvo', serif;
+  width: 350px;
+}
+
+/*footer 2*/
+.footer-2{
+  background-color: #046865;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footsie-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-2 h1 {
+  color: #FFFFFF;
+  font-family: 'Arvo', serif;
+  font-size: 40px;
+}
+
+.footer-2 a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
